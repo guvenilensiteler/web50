@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Güvenilen Siteler</title>
-    <link rel="stylesheet" href="https://uyeolkazan.com/css/new.css?v5.47">
-    <link rel="shortcut icon" href="https://uyeolkazan.com/favicon.png">
+    <link rel="stylesheet" href="https://uyeolvekazan.com/css/new.css?v5.47">
+    <link rel="shortcut icon" href="https://uyeolvekazan.com/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -527,7 +527,7 @@
         },
         created(){
             this.loading = true;
-            axios.get('https://uyeolkazan.com/data.json?v=0.0.2')
+            axios.get('https://uyeolvekazan.com/data.json?v=0.0.2')
                 .then((response) => {
                     this.client = response.data.html
                     this.king = _.find(this.client.categories, ['id', 1710467155101]);
